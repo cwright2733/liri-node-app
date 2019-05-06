@@ -5,6 +5,14 @@
 Liri Bot App
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
+IMAGE LINK
+<a href="http://tinypic.com?ref=ej7bf7" target="_blank"><img src="http://i67.tinypic.com/ej7bf7.png" border="0" alt="Image and video hosting by TinyPic"></a>
+
+[IMG]http://i67.tinypic.com/ej7bf7.png[/IMG]
+
+Direct Link
+http://i67.tinypic.com/ej7bf7.png
+
 LIRI uses the following commands:
 search-concerts
 
