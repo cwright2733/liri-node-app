@@ -34,23 +34,24 @@ function getConcert() {
 }
 
 // Search-Song =============================
-function getSong() {
+function getSong(input) {
 
-    var spotify = new Spotify({
-        id: process.env.SPOTIFY_ID,
-        secret: process.env.SPOTIFY_SECRET,
-    });
+    var spotify = new Spotify(keys.spotify);
 
     spotify.search({
         type: "track",
-        query: "The Sign",
+        query: input,
 
     }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        const song = data.tracks.items[i];
-        console.log("Artist: " + song.artists[0].name);
+        console.log(data.tracks.items.artists);
+
+
+        
+        const song = data.tracks.items;
+        console.log("Artist: " + song.artists.name);
         console.log("Song: " + song.name);
         console.log("Preview URL: " + song.preview_url);
         console.log("Album: " + song.album.name);
