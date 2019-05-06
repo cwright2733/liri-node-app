@@ -12,7 +12,7 @@ console.log(command, input);
 // Input commands =================================
 if (command === "search-concert") {
     getConcert(input)
-} else if (command === "search-song") {
+} else if (command === "spotify-this-song") {
     getSong(input)
 } else if (command === "search-movie") {
     getMovie(input)
